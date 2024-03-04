@@ -13,7 +13,7 @@ const VikasResume = () => {
           VIKAS KUMAR
         </Heading>
         <Text textAlign={"left"} width={"100%"} mt={"-7px"}>
-          (+91)72390878050
+          (+91)7239087850
         </Text>
         <Text textAlign={"left"} width={"100%"} mt={"-7px"}>
           vikas800046@gmail.com

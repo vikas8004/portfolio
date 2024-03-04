@@ -26,6 +26,7 @@ import {
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import vikas from "../assets/dummy.png";
+// import vikas from "../assets/business-man-handsome-cute-young-guy-black-suit-red-tie-smiling-with-laptop-removebg-preview.png";
 import resume from "../assets/vikasResume.pdf";
 import { FaWhatsapp } from "react-icons/fa6";
 import { MdOutlinePhone } from "react-icons/md";
@@ -231,7 +232,7 @@ const PortFolio = () => {
         </chakra.nav>
 
         <HStack
-          width={"80%"}
+          width={["90%","90%","80%","80%"]}
           pl={"3"}
           flexDirection={["column", "column", "row", "row"]}
           justifyContent={[
@@ -240,7 +241,7 @@ const PortFolio = () => {
             "space-between",
             "space-between",
           ]}
-          mt={["10rem", "7rem", "0rem", "0rem"]}
+          mt={["8rem", "7rem", "0rem", "0rem"]}
           height={"100vh"}
         >
           <motion.div
@@ -344,7 +345,7 @@ const PortFolio = () => {
           </VStack>
         </HStack>
         <HStack
-          width={"80%"}
+          width={["90%","90%","80%","80%"]}
           pl={"3"}
           flexDirection={["column-reverse", "column-reverse", "row", "row"]}
           justifyContent={[
@@ -448,7 +449,7 @@ const PortFolio = () => {
           </motion.div>
         </HStack>
         <HStack
-          width={"80%"}
+          width={["90%","90%","80%","80%"]}
           pl={"3"}
           flexDirection={["column-reverse", "column-reverse", "row", "row"]}
           justifyContent={[
@@ -614,7 +615,7 @@ const PortFolio = () => {
         </HStack>
 
         <HStack
-          width={"80%"}
+          width={["90%","90%","80%","80%"]}
           pl={"3"}
           flexDirection={["column"]}
           justifyContent={["center"]}
